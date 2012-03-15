@@ -54,5 +54,6 @@ var mlarbi = Ember.Person.create({
 	test1: 'Test data - ignore',
 	val1: 123	
 });
+
 ```
 mlarbi.persistCreate();
