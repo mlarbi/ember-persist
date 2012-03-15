@@ -40,7 +40,7 @@ Different persister types (say for SOAP, Script, etc.) can be created without af
 
 
 ##Example Usage:
-
+``` javascript
 Ember.Person = Ember.PersistentObject.extend({
 	//only properties listed here are persisted.  All others are ignored.
 	persistentProperties: ['surname', 'firstname', 'student', 'faculty'],
@@ -54,5 +54,5 @@ var mlarbi = Ember.Person.create({
 	test1: 'Test data - ignore',
 	val1: 123	
 });
-
+```
 mlarbi.persistCreate();
